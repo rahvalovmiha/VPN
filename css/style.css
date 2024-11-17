@@ -394,3 +394,50 @@ a {
     font-weight: 400;
     line-height: 14px;
 }
+
+.map-and-logo-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.map-and-logo__box{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 73px;
+}
+
+.map-and-logo__title{
+    margin-bottom: 7px;
+    color: rgb(11, 19, 42);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.map-and-logo__text{
+    color: rgb(79, 86, 101);
+    font-family: sans-serif;
+    font-size: 7px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.map-and-logo__img{
+    width: 498px;
+    height: 252px;
+    margin-bottom: 51px;
+}
+
+.map-and-logo__list{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+/* .map-and-logo__item{} */
+
+/* .map-and-logo__logo{} */
