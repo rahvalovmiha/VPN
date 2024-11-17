@@ -443,10 +443,23 @@ a {
 /* .map-and-logo__logo{} */
 
 .futer__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 0;
+}
+
+.futer__top{
+    padding: 27px 32px;
+    left: 100px;
+    top: 0;
     margin-left: 273px;
     display: flex;
     align-items: center;
     gap: 177px;
+    z-index: 2;
+    border-radius: 4.7px;
+    background: rgb(255, 255, 255);
 }
 
 .futer__box {
@@ -483,4 +496,100 @@ a {
     font-size: 7px;
     font-weight: 700;
     line-height: 11px;
+}
+
+.futer__bottom{
+    padding-left: 0px;
+    padding-top: 75px;
+    top: 84px;
+    position: absolute;
+    background: rgb(217, 216, 216);
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: start;
+    gap: 108px;
+}
+
+.futer__left{
+    margin-left: 250px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: column;
+}
+
+/* .futer__logo-silka{} */
+
+.futer__logo{
+    width: 70px;
+    height: 17px;
+}
+
+.futer__text{
+    color: rgb(79, 86, 101);
+    font-family: sans-serif;
+    font-size: 7px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.futer__left-list{
+    display: flex;
+    padding-inline-start: 0px;
+    align-items: center;
+    gap: 9px;
+}
+
+/* .futer__left-item{} */
+
+.futer__left-img{
+    width: 33px;
+    height: 33px;
+}
+
+.futer__text-2{
+    color: rgb(175, 181, 192);
+    font-family: sans-serif;
+    font-size: 7px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+}
+
+.futer__right{
+    display: flex;
+    align-items: start;
+    gap: 59px;
+}
+
+.box-in-box{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.futer__right-title{
+    color: rgb(11, 19, 42);
+    font-family: sans-serif;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 14px;
+}
+
+.futer__right-list{
+    padding-inline-start: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.futer__right-iitem{
+    color: rgb(79, 86, 101);
+    font-family: sans-serif;
+    font-size: 7px;
+    font-weight: 400;
+    line-height: 14px;
 }
