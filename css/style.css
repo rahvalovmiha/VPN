@@ -10,3 +10,62 @@ ul, a{
     margin: 0 auto;
     padding: 0 16px;
 }
+
+.header__container{
+    display: flex;
+    align-items: center;
+    gap: 71px;
+}
+
+/* .header__logo-sika{} */
+
+.header__logo{
+    width: 70px;
+    height: 17px;
+}
+
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+/* .header__item{} */
+
+.header__silka{
+    color: rgb(79, 86, 101);
+    font-family: sans-serif;
+    font-size: 7.52px;
+    font-weight: 400;
+    line-height: 9px;
+}
+
+.header__box{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.In{
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: rgb(11, 19, 42);
+    font-family: sans-serif;
+    font-size: 7.52px;
+    font-weight: 500;
+    line-height: 9px;
+}
+
+.Up{
+    box-sizing: border-box;
+    border: 1px solid rgb(245, 56, 85);
+    border-radius: 23.49px;
+    color: rgb(245, 56, 85);
+    font-family: sans-serif;
+    font-size: 7.52px;
+    font-weight: 500;
+    line-height: 9px;
+    width: 70px;
+    height: 21px;
+    background-color: transparent;
+}
