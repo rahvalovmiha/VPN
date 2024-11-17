@@ -333,19 +333,14 @@ a {
 
 .pmf__container {
     margin-top: 49px;
-    padding-left: 317px;
     display: flex;
     align-items: flex-start;
     gap: 79px;
-    position: relative;
 }
 
 .pmf__img {
     width: 238px;
     height: 198px;
-    position: absolute;
-    left: 0px;
-    top: 33px;
 }
 
 .pmf__box {
