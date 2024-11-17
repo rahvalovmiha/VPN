@@ -177,3 +177,44 @@ a {
     transform: rotate(90deg);
     border: 0.94px solid rgb(238, 239, 242);
 }
+
+/* .choose__container{} */
+
+.choose__titke {
+    color: rgb(11, 19, 42);
+    font-family: sans-serif;
+    font-size: 16.44px;
+    font-weight: 500;
+    line-height: 23.49px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 9px;
+    padding: 0;
+}
+
+.choose__text {
+    color: rgb(79, 86, 101);
+    font-family: sans-serif;
+    font-size: 7.52px;
+    font-weight: 400;
+    line-height: 14.09px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 28px;
+    padding: 0;
+}
+
+/* .choose__list{} */
+
+.choose__item {
+    width: 155px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(221, 221, 221);
+    border-radius: 4.7px;
+    background: rgb(255, 255, 255);
+}
+
+.box-suprays {
+    width: 68px;
+    height: 78px;
+}
