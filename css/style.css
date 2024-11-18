@@ -7,7 +7,7 @@ a {
 /* header{} */
 
 .container {
-    max-width: 1440px;
+    max-width: 676px;
     margin: 0 auto;
     padding: 0 16px;
 }
@@ -134,6 +134,8 @@ a {
     align-items: center;
     border-radius: 4.7px;
     background: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 48px;
 }
 
 .item {
@@ -449,7 +451,7 @@ a {
     top: 0;
 }
 
-.futer__top{
+.futer__top {
     padding: 27px 32px;
     left: 100px;
     top: 0;
@@ -498,7 +500,7 @@ a {
     line-height: 11px;
 }
 
-.futer__bottom{
+.futer__bottom {
     padding-left: 0px;
     padding-top: 75px;
     top: 84px;
@@ -511,7 +513,7 @@ a {
     gap: 108px;
 }
 
-.futer__left{
+.futer__left {
     margin-left: 250px;
     display: flex;
     align-items: flex-start;
@@ -521,12 +523,12 @@ a {
 
 /* .futer__logo-silka{} */
 
-.futer__logo{
+.futer__logo {
     width: 70px;
     height: 17px;
 }
 
-.futer__text{
+.futer__text {
     color: rgb(79, 86, 101);
     font-family: sans-serif;
     font-size: 7px;
@@ -534,7 +536,7 @@ a {
     line-height: 14px;
 }
 
-.futer__left-list{
+.futer__left-list {
     display: flex;
     padding-inline-start: 0px;
     align-items: center;
@@ -543,12 +545,12 @@ a {
 
 /* .futer__left-item{} */
 
-.futer__left-img{
+.futer__left-img {
     width: 33px;
     height: 33px;
 }
 
-.futer__text-2{
+.futer__text-2 {
     color: rgb(175, 181, 192);
     font-family: sans-serif;
     font-size: 7px;
@@ -557,20 +559,20 @@ a {
     text-align: center;
 }
 
-.futer__right{
+.futer__right {
     display: flex;
     align-items: start;
     gap: 59px;
 }
 
-.box-in-box{
+.box-in-box {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     gap: 9px;
 }
 
-.futer__right-title{
+.futer__right-title {
     color: rgb(11, 19, 42);
     font-family: sans-serif;
     font-size: 8px;
@@ -578,7 +580,7 @@ a {
     line-height: 14px;
 }
 
-.futer__right-list{
+.futer__right-list {
     padding-inline-start: 0;
     display: flex;
     align-items: flex-start;
@@ -586,10 +588,143 @@ a {
     gap: 9px;
 }
 
-.futer__right-iitem{
+.futer__right-iitem {
     color: rgb(79, 86, 101);
     font-family: sans-serif;
     font-size: 7px;
     font-weight: 400;
     line-height: 14px;
+}
+
+.comment__conntainer {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.comment__info {
+    max-width: 260px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.comment__title {
+    color: rgb(11, 19, 42);
+    font-family: sans-serif;
+    font-size: 16.44px;
+    font-weight: 500;
+    line-height: 23.49px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 9px;
+    padding: 0;
+}
+
+.comment__text {
+    color: rgb(79, 86, 101);
+    font-family: sans-serif;
+    font-size: 7.52px;
+    font-weight: 400;
+    line-height: 14.09px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 28px;
+    padding: 0;
+}
+
+.comment__list {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.comment__item {
+    max-width: 188px;
+    height: 115px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(221, 221, 221);
+    border-radius: 4.7px;
+}
+
+.active {
+    border: 0.94px solid rgb(245, 56, 56);
+    border-radius: 4.7px;
+    background: rgb(255, 255, 255);
+}
+
+.box10 {
+    padding: 14px;
+}
+
+.box__info {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.box__img-photo {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+
+/* .name{} */
+
+.box__info-title {
+    color: rgb(11, 19, 42);
+    font-family: sans-serif;
+    font-size: 8.46px;
+    font-weight: 500;
+    line-height: 14.09px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.box__text-info {
+    color: rgb(79, 86, 101);
+    font-family: sans-serif;
+    font-size: 6.58px;
+    font-weight: 400;
+    line-height: 14.09px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.star {
+    margin-left: auto;
+}
+
+.star__text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(11, 19, 42);
+    font-family: sans-serif;
+    font-size: 7.52px;
+    font-weight: 400;
+    line-height: 14.09px;
+}
+
+.star__text::after {
+    width: 8px;
+    height: 8px;
+    display: block;
+    content: '';
+    background-image: url('../img/star.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box10__text {
+    color: rgb(11, 19, 42);
+    font-family: sans-serif;
+    font-size: 7.52px;
+    font-weight: 400;
+    line-height: 14.09px;
+    margin: 0;
+    padding: 0;
 }
